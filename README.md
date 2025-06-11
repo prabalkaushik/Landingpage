@@ -2,6 +2,8 @@
 
 This project contains a simple landing page called **Busines** for Fabricom Metals.
 It is built with Node.js and Express to serve a static website with a contact form.
+The page now includes an about section and a product gallery with industrial
+equipment images (cables, bearings, electrical components).
 
 ## Getting Started
 
