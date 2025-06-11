@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fabricom Metals - Busines</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Fabricom Metals</h1>
+        <p>Busines - Trading Industrial Equipment</p>
+    </header>
+    <section class="hero">
+        <h2>Industrial Solutions for Every Project</h2>
+        <p>Your trusted partner for electrical and mechanical components.</p>
+    </section>
+
+    <section class="about">
+        <h2>About Us</h2>
+        <p>
+            Fabricom Metals is a global trader of industrial equipment with a
+            strong focus on electrical applications. We provide cables, bearings,
+            motors and other components to keep your operations running
+            smoothly.
+        </p>
+    </section>
+
+    <section class="products">
+        <h2>Our Products</h2>
+        <div class="product-grid">
+            <div class="product">
+                <img src="https://images.unsplash.com/photo-1570197789163-39d2a3ec8ff5?auto=format&fit=crop&w=800&q=60" alt="Industrial Cables">
+                <h3>Cables</h3>
+            </div>
+            <div class="product">
+                <img src="https://images.unsplash.com/photo-1581091012184-4929b7cb9aa2?auto=format&fit=crop&w=800&q=60" alt="Bearings">
+                <h3>Bearings</h3>
+            </div>
+            <div class="product">
+                <img src="https://images.unsplash.com/photo-1509395176047-4a66953fd231?auto=format&fit=crop&w=800&q=60" alt="Electrical Components">
+                <h3>Electrical Components</h3>
+            </div>
+        </div>
+    </section>
+    <section class="contact">
+        <h2>Contact Us</h2>
+        <form id="contact-form">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="phone">Contact Number:</label>
+            <input type="tel" id="phone" name="phone" required>
+
+            <label for="email">Email Address:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="message">Query / Note:</label>
+            <textarea id="message" name="message" required></textarea>
+
+            <button type="submit">Submit</button>
+        </form>
+        <div id="form-response" class="hidden"></div>
+    </section>
+    <script src="script.js"></script>
+</body>
+</html>
