@@ -13,7 +13,6 @@ header {
 }
 
 .hero {
-zkz5ej-codex/design-landing-page-for-fabricom-metals
     padding: 4em 2em;
     text-align: center;
     color: #fff;
@@ -22,7 +21,9 @@ zkz5ej-codex/design-landing-page-for-fabricom-metals
     background-position: center;
 }
 
-.about, .products, .contact {
+.about,
+.products,
+.contact {
     padding: 2em;
     max-width: 900px;
     margin: 0 auto;
@@ -47,15 +48,6 @@ zkz5ej-codex/design-landing-page-for-fabricom-metals
     width: 100%;
     height: 150px;
     object-fit: cover;
-
-    padding: 2em;
-    text-align: center;
-    background-color: #e2e2e2;
-}
-
-.contact {
-    padding: 2em;
-  main
 }
 
 label {
@@ -63,7 +55,8 @@ label {
     margin-top: 1em;
 }
 
-input, textarea {
+input,
+textarea {
     width: 100%;
     padding: 0.5em;
     margin-top: 0.5em;
